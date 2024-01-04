@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+@font-face {
+    font-family: 'neue_machina';
+    src: url('../fonts/ppneuemachina-plainregular-webfont.woff2') format('woff2'),
+         url('../fonts/ppneuemachina-plainregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'neue_machina_bold';
+    src: url('../fonts/ppneuemachina-plainultrabold-webfont.woff2') format('woff2'),
+         url('../fonts/ppneuemachina-plainultrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

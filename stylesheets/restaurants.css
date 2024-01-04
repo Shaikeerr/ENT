@@ -1,0 +1,186 @@
+html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#FFE6FD, #B3F5FF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+    
+
+}
+
+.main {
+    position: relative;
+    top: 150px;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.restaurant {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.infos_cantine {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos_cantine p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-family: neue_machina;
+}
+
+.frequentation_cantine {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.frequentation_cantine p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-family: neue_machina;
+
+}
+
+.frequentation_cantine a {
+    display: inline-block;
+    text-align: center;
+    background-color: #d296f0;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 1.10rem;
+    padding: 15px 10px;
+    width: 300px;
+    color: black;
+    font-family: neue_machina;
+}
+
+
+.boutons_choix {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 50px;
+    position: relative;
+}
+
+.boutons_choix a {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    background-color: rgb(210, 150, 240);
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 1.10rem;
+    padding: 15px 10px;
+    width: 150px;
+    color: black;
+    font-family: neue_machina;
+}
+
+.boutons_choix a:hover {
+    background-color: black;
+    color: rgb(210, 150, 240);
+    transition: all 0.25s ease;
+}
+
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #FF0000; /* Couleur de la partie remplie pour les navigateurs WebKit (Chrome, Safari) */
+    border-top-right-radius: 20px; /* Top-right corner radius */
+    border-bottom-right-radius: 20px; /* Bottom-right corner radius */
+    transition: all .25s ease;
+    
+  }
+  
+  
+  progress::-webkit-progress-bar {
+    border-top-right-radius: 20px; /* Top-right corner radius */
+    border-bottom-right-radius: 20px; /* Bottom-right corner radius */
+  } 
+
+  .separator {
+    width: 10px;
+    height: 125px;
+    background-color: black;
+    border-radius: 50px;
+  }
+
+  .menu_cantine {
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(210, 150, 240);
+    margin-top: 50px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu_cantine h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: neue_machina;
+  }
+
+  .menu_cantine h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: neue_machina;
+  }
+
+  .menu_cantine p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    font-family: neue_machina;
+  }
+
+  .menu_cantine .dessert p { 
+    margin-bottom: 0px;
+  }
+
+
+

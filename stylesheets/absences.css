@@ -1,0 +1,156 @@
+body {
+    flex-direction: column;
+    background: linear-gradient(#FFE6FD, #B3F5FF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    position: relative;
+    top: 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main h1 {
+    margin: 0;
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 17px;
+    background-color: rgb(255, 170, 255);
+    width: fit-content;
+    padding: 20px 30px;
+    font-family: neue_machina_bold;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.box h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: neue_machina_bold;
+    color: #000;
+    margin-bottom: 20px;
+}   
+
+.liste {
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+}
+  .liste::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  .liste::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .liste::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+.element {
+    width: 90%;
+    margin-bottom: 10px;
+    background-color: #B3F5FF;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.date {
+    text-align: center;
+    margin: 0;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#box1 .element {
+    background-color: rgb(205, 255, 200);
+}
+
+#box2 .element {
+
+    background-color: rgb(255, 200, 200);
+}
+
+.recap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #beb3ff;
+
+}
+
+.total p {
+    position: relative;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: Inter
+}
+
+.total p strong {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.rappel h2 {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+li {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: neue_machina;  
+}
+
+.rappel {
+    background-color: #beb3ff;
+    margin-top: 90px;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
