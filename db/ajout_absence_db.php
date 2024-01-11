@@ -1,7 +1,7 @@
 <?php 
 
 session_start();
-require ('connexion/connexion.php');
+require ('../connexion/connexion.php');
 $etudiant = $_POST['etudiant'];
 
 $sql = "SELECT * FROM user WHERE id_user = :id_user AND id_fonction = 2 or id_fonction = 3";
@@ -35,7 +35,7 @@ else {
     $stmt->bindParam(':heures_manquees', $heures_manquees, PDO::PARAM_STR);
     $stmt->execute();
 
-    header('Location: absences.php');
+    header('Location: ../absences.php');
 
 }
 

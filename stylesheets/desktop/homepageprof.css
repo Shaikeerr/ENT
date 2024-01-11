@@ -1,0 +1,54 @@
+body {
+  background-attachment: fixed;
+}
+
+.box_lien {
+    width: 250px; /* Vous pouvez ajuster la largeur selon vos besoins */
+    height: 250px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+    background-color: #3498db; /* Couleur de fond */
+    margin: 10px; /* Marge autour de chaque boîte */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+    transition: all .25s;
+  }
+
+.box_lien:hover {
+  background-color: #226b9c;
+}
+
+  /* Style pour les liens à l'intérieur des boîtes */
+  .box_lien a {
+    color: #fff; /* Couleur du texte */
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+
+
+  }
+
+  .box_lien a p {
+    font-family: neue_machina;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+  }
+
+  .main {
+    justify-content: space-around;
+  }
+
+  .emoji {
+    font-size: 5rem;
+    margin: 0;
+  }

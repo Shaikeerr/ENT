@@ -16,7 +16,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurants</title>
-    <link rel="stylesheet" href="stylesheets/restaurants.css">
+    <link rel="stylesheet" href="stylesheets/desktop/restaurants.css">
+    <link media="screen and (max-width: 600px)" rel="stylesheet" href="stylesheets/mobile/restaurants_mobile.css">
     <link rel="stylesheet" href="stylesheets/navbar.css">
     <link rel="stylesheet" href="stylesheets/fonts.css">
 </head>
@@ -26,13 +27,15 @@
         <a href="homepage.php" class="logo">
           <img src="images/logo.png" alt="accueil">
         </a>
+        <img src="images/burger_icon.png" alt="burger" class="burger">
         <ul class="nav-links">
           <li class="nav-item"><a href="calendrier.php">Calendrier</a></li>
           <li class="nav-item"><a href="notes.php">Notes</a></li>
           <li class="nav-item"><a href="absences.php">Absences</a></li>
-          <li class="nav-item"><a href="reservations.php">Réservations</a></li>
+          <li class="nav-item"><a href="rendus.php">Rendus</a></li>
           <li class="nav-item"><a href="restaurants.php?choix=1">Restauration</a></li>
-          <li class="nav-item"><a href="applications.php">Applications</a></li>
+          <li class="nav-item"><a href="https://elearning.univ-eiffel.fr" target="_blank">E-Learning</a></li>
+          <li class="nav-item"> <a href="logout.php"> Déconnexion</a> </li>
         </ul>
       </nav>
 
@@ -156,6 +159,7 @@
 
 </div>
 </body>
+<script src="scripts/burger.js"></script>
 </html>
 
 

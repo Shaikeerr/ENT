@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#FFE6FD, #B3F5FF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 10px #000;  
+}
+
+form h1 {
+    font-size: 2rem;
+    font-family: neue_machina_bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+form h2 {
+    font-size: 1.25rem;
+    font-family: neue_machina_bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+form h1 {
+    font-size: 1.5rem;
+    font-family: neue_machina_bold;
+    color: #000;
+    margin-bottom: 20px;
+
+}
+
+form input[type="text"]:not(.date) {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: neue_machina;
+    color: #000;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+label   {
+    font-size: 1rem;
+    font-family: neue_machina;
+    color: #000;
+}
+
+select {
+    width: 450px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-family: neue_machina;
+    color: #000;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form input[type="submit"] {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    font-family: neue_machina;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+#cours {
+    background-color: #fff;
+    color: #000;
+}
+
+
+#cours option {
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 200px; /* Largeur du champ */
+    padding: 6px; /* Espace à l'intérieur du champ */
+    font-size: 16px; /* Taille de la police */
+    border: 1px solid #ccc; /* Bordure du champ */
+    border-radius: 4px; /* Coins arrondis */
+    box-sizing: border-box; /* Boîte de dimension incluant la bordure */
+    margin-bottom: 20px;
+  } 

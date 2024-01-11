@@ -8,12 +8,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soumettre une Fréquentation</title>
-    <link rel="stylesheet" href="stylesheets/soumettre_frequentation.css">
+    <link rel="stylesheet" href="stylesheets/desktop/soumettre_frequentation.css">
+    <link media="screen and (max-width: 600px)" rel="stylesheet" href="stylesheets/mobile/soumettre_frequentation_mobile.css">
     <link rel="stylesheet" href="stylesheets/fonts.css">
 </head>
 <body>
 
-    <form action="soumission.php" method="post">
+    <form action="db/soumission.php" method="post">
     <a href="restaurants.php?choix=1"> 🡄 Retour</a>
     <div class="radio">
                 <h2>Choisissez une cantine</h2>

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter une absence</title>
-    <link rel="stylesheet" href="stylesheets/ajout_absence.css">
+    <link rel="stylesheet" href="stylesheets/desktop/ajout_absence.css">
+    <link media="screen and (max-width: 600px)" rel="stylesheet" href="stylesheets/mobile/ajout_absence_mobile.css">
     <link rel="stylesheet" href="stylesheets/fonts.css">
 </head>
 <body>
@@ -55,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $result_etudiant = $stmt_etudiant->fetchAll(PDO::FETCH_ASSOC);
 
 
-        echo '<form action="ajout_absence_db.php" method="POST">';
+        echo '<form action="db/ajout_absence_db.php" method="POST">';
         echo '<a href="ajout_absence.php">Retour</a>';
         echo '<h1>Ajouter une absence pour ' . $result_etudiant[0]["nom"] . ' ' . $result_etudiant[0]["prenom"] . '</h1>';
         echo '<input type="hidden" name="etudiant" value="' . $etudiant . '">';
@@ -81,13 +82,12 @@ else {
     if (count($result) == 0) {
         echo '<h1>Vous n\'avez pas les droits pour accéder à cette page</h1>';
     } else {
-        $sql_formation = "SELECT * FROM formations WHERE id_referent = :id_referent";
+        $sql_formation = "SELECT * FROM formations";
         $stmt_formation = $db->prepare($sql_formation);
-        $stmt_formation->bindParam(':id_referent', $_SESSION['id_user'], PDO::PARAM_STR);
         $stmt_formation->execute();
         $result_formation = $stmt_formation->fetchAll(PDO::FETCH_ASSOC);
         echo '<form action="" method="POST">';
-        echo '<a href="index.php">Retour</a>';
+        echo '<a href="homepageperso.php">Retour</a>';
         echo '<h1>Choisissez une formation</h1>';
         
         echo '<select name="formation" id="formation">';

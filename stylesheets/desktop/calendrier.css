@@ -1,0 +1,95 @@
+body {
+    flex-direction: column;
+    background: linear-gradient(#FFE6FD, #B3F5FF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.main {
+    position: relative;
+    top: 150px;
+    margin: 0;
+    display: flex;
+
+}
+
+.week {
+    width: 100%;
+}
+
+h1 {
+    font-family: neue_machina_bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+.days {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;;
+    height: 65vh; /* Make sure this height is set */
+    width: 95%;
+    background-color: #8ACDD7;
+    border-radius: 15px;
+}
+
+.day {
+    flex-shrink: 0;
+    height: 100%; /* Set a fixed height */
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.creneau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f9f8;
+    height: 17.5%; /* You can adjust this value based on your design */
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.creneau p {
+    font-size: 0.9rem;
+    margin: 0;
+    font-family: neue_machina;
+}
+
+.creneau h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-family: Inter;
+}
+
+.day h2 {
+    text-align: center;
+    font-family: neue_machina_bold;
+}
+
+.title-box h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.week_days img {
+    display: none;
+}
+

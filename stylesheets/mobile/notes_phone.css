@@ -1,0 +1,17 @@
+.container_matieres {
+    width: 100%;
+}
+
+.main {
+    flex-direction: column;
+}
+
+.container_sous_matieres {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container_notes {
+    margin-top: 20px;
+    width: 100%;
+}

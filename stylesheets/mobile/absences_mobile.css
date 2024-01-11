@@ -1,0 +1,45 @@
+h1 {
+    display: block;
+    text-align: center;
+    
+}
+
+.main {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.boxes {
+    display: block;
+}
+
+.box:not(#box1) {
+    display: none;
+}
+
+
+.buttons_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.buttons_container button {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(210, 150, 240);
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 1.10rem;
+    padding: 15px 10px;
+    width: 150px;
+    color: black;
+    font-family: neue_machina;
+}
+

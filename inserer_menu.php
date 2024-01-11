@@ -8,13 +8,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Créer un menu</title>
-    <link rel="stylesheet" href="stylesheets/inserer_menu.css">
+    <link rel="stylesheet" href="stylesheets/desktop/inserer_menu.css">*
+    <link media="screen and (max-width: 600px)" rel="stylesheet" href="stylesheets/mobile/inserer_menu_mobile.css">
     <link rel="stylesheet" href="stylesheets/fonts.css">
 </head>
 <body>
 
-<form action="creation_menu.php" method="post">
-    <a href="restaurants.php?choix=1"> 🡄 Retour</a>
+<form action="db/creation_menu.php" method="post">
+    <a href="homepageperso.php"> 🡄 Retour</a>
     <h2> Choisissez une cantine </h2>
     <select name="cantines" id="cantines_select">
         <option value="">--Choisissez une cantine--</option>

@@ -1,0 +1,48 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.slideshow {
+    display: none;
+}
+
+.main {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.edt_container {
+    width: 300px;
+    margin-left: 0;
+}
+
+.pages_link {
+    left: 50%;
+    transform: translate(-50%, 0);
+    flex-direction: column;
+    display: block  ;
+    top: 200px;
+
+}
+
+.last_rendu {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.last_notes {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.last_absences {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+

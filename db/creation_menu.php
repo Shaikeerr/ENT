@@ -1,5 +1,5 @@
 <?php
-require('connexion/connexion.php');
+require('../connexion/connexion.php');
 
 $selectedCantine = $_POST['cantines'];
 $selectedDate = $_POST['date_menu'];
@@ -16,5 +16,5 @@ $stmt->bindParam(':dessert', $dessert, PDO::PARAM_STR);
 $stmt->bindParam(':selectedDate', $selectedDate, PDO::PARAM_STR);
 $stmt->execute();
 
-header('Location: restaurants.php?choix=' . $selectedCantine);
+header('Location: ../homepageperso.php');
 ?>

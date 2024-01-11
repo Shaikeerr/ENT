@@ -20,6 +20,9 @@ nav {
     display: inline-block;
     width: 128px;
   }
+
+
+
   
   .nav-links {
     list-style: none;
@@ -29,6 +32,7 @@ nav {
 
   .nav-item {
     display: flex;
+    align-items: center;
     text-decoration: none;
     border-radius: 50px;
     width: 150px;
@@ -61,7 +65,40 @@ nav {
   }
   
   .logo img {
-    width: 128px !important;;
+    width: 100% !important;;
     vertical-align: middle;
     transition: all .25s ease;
+  }
+
+  .burger {
+    display: none;
+    cursor: pointer;
+    width: 48px !important;
+    vertical-align: middle;
+    z-index: 3;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    nav {
+      justify-content: space-between;
+      padding-left: 0;
+    }
+
+    .logo {
+      padding-left: 20px;
+    }
+    
+    .nav-links {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+      cursor: pointer;
+      margin-right: 20px;
+      padding-right: 0;
+    }
+    
   }

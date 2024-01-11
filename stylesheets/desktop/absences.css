@@ -5,8 +5,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    width: 100vw;
 }
 
 .main {
@@ -142,7 +140,7 @@ body {
 
 }
 
-li {
+li:not(.nav-item) {
     font-size: 1.2rem;
     margin-bottom: 30px;
     font-family: neue_machina;  
@@ -150,7 +148,11 @@ li {
 
 .rappel {
     background-color: #beb3ff;
-    margin-top: 90px;
+    margin-top: 80px;
     padding: 10px 10px;
     border-radius: 15px;
+}
+
+.buttons_container {
+    display: none;
 }

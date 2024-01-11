@@ -1,0 +1,35 @@
+.boutons_choix {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.boutons_choix a {
+    margin-bottom: 10px;
+    width: 80vw;
+    margin-left: 0;
+    align-self: center;
+}
+
+.restaurant {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.separator {
+    transform: rotate(90deg);
+    height: 200px;
+    width: 5px;
+    background-color: gray  ;
+}
+
+.infos_cantine {
+    width: 80%;
+    text-align: center;
+}
+
+progress {
+    width: 80%;
+    margin-right: 0;
+}
